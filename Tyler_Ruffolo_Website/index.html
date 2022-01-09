@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Ruffolo</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="shortcut icon" href="favicon.svg">
+    <script src="JS/javascript.js"></script>
+    <script src="JS/contact.js"></script>
+    <script src="JS/projects.js"></script>
+
+</head>
+
+
+<body id="bodycolors" onload="myFunction3()">
+
+    <header class="header-btn">
+        <button type="button" onclick="myFunction2()">Day</button>
+        <button type="button" onclick="myFunction4()">Noon</button>
+        <button type="button" onclick="myFunction5()">Afternoon</button>
+        <button type="button" onclick="myFunction()">Night</button>
+        <button type="button" onclick="myFunction3()">Current</button>
+        <!-- <button class="resume" type="button" style="float: right;"> <a href="TylerRuffolo_Resume.pdf" download="Tyler_Ruffolo_Resume">Resume</a> </button> -->
+        <button type="button" style="float: right;"><a href="#contact">Contact</a></button>
+        <button type="button" style="float: right;"><a href="#project">Project</a></button>
+        <button type="button" style="float: right;"><a href="#about">About</a></button>
+
+    </header>
+
+    <Section class="home-container">
+
+        <img src="images/home/mountCopytest.png" alt="mountain" class="mountain" id="mount">
+        <img src="images/home/moonsm.png" alt="moon" class="moon" id="moon">
+        <img src="images/home/star.png" alt="stars" class="stars" id="star">
+
+    </Section>
+
+    <Section class="about-container">
+
+        <div class="header">
+        <h1>About Me</h1>
+        </div>
+        <div class="content">
+        <div class="left">
+            
+            <h2>My Name Is Tyler Ruffolo,</h2>
+            <p> I'm a graduate from Humber College, where I was enrolled in the program Computer Engineering Technology. 
+                In my free time I enjoy coding, designing, soccer and working out. 
+                I strive to achieve the best in whatever I do and I take pride in my ability to work well with a team or independently. My objective is to find a 
+                career in Web Development to demonstrate my skills and to also learn what I can improve on to become more successful in this field.
+            </p>
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="left-skills">
+
+                    <div class="skillname">
+                        <h3>HTML</h3>
+                        <div class="outer-bar">
+                            <div class="inner-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skillname">
+                        <h3>Python</h3>
+                        <div class="outer-bar">
+                            <div class="inner-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skillname">
+                        <h3>JavaScript</h3>
+                        <div class="outer-bar">
+                            <div class="inner-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-skills">
+
+                    <div class="skillname">
+                        <h3>CSS</h3>
+                        <div class="outer-bar">
+                            <div class="inner-bar" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skillname">
+                        <h3>Java</h3>
+                        <div class="outer-bar">
+                            <div class="inner-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skillname">
+                        <h3>C</h3>
+                        <div class="outer-bar">
+                            <div class="inner-bar" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <img src="images/about/self-photo.jpg" alt="self-photo">
+        </div>
+    </div>
+    </Section>
+
+    <Section class="project-container">
+
+        <h1>Projects</h1><br>
+        <div class="projects first" id="one">
+            <div class="header-name">
+                <h2>Covid Security System</h2>
+            </div>
+            <div class="project-flex">
+                <div class="project-left" id="covid-left">
+                    <p>This project was created as my final semester capsule project where my group 
+                        and I had to design a project based on real life issues, so the chosen idea
+                        was a Covid Security System that takes your temperature and stores it into a 
+                        your own personal log. This works is an app we created for the users to 
+                        download on their phone and the hardware created for this project, the app 
+                        works by creating a account and it generates your own personal QR code 
+                        which you hold up to the hardware's camera so it know who the user is and 
+                        once it takes your temperature it then store the information to the app.
+                    </p>
+                </div>
+                <div class="project-right" id="covid-right">
+                    <img src="images/project/phone.PNG" alt="phone-image" class="phone-image">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="projects second" id="two">
+            <div class="header-name">
+                <h2>Room Lights</h2>
+            </div>
+            <div class="project-flex">
+                <div class="project-left" id="lights-left">
+                    <p>This is a project I built that can be controlled easily through different devices 
+                        such as phones, computers and tablets. The Lights are powered by a 
+                        Raspberry Pi which also set the color of the light based on what is chosen by 
+                        the user. The website that lets the user choose the color of the lights is also 
+                        requires a username and password so that not just anyone can access the lights
+                        anytime. This project is possible because of firebase which is a real-time
+                        database that stores the current color of the lights.
+                    </p>
+
+                    <p>Programming Languages Used:<br>
+                        - HTML<br>
+                        - CSS<br>
+                        - JavaScript<br>
+                        - Python</p>
+
+                </div>
+                <div class="project-right" id="lights-right">
+                    <img src="images/project/LEDPhone.png" alt="LED-Project-image" class="LED-image">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="projects third" id="three">
+
+            <div class="header-name">
+                <h2>Calculator</h2>
+            </div>
+            <div class="project-flex">
+                <div class="project-left" id="calc-left">
+                    <p>This Project is a calculator I built as a personal 
+                        project, the calculator can handle a variety 
+                        of different tasks such as addition, subtraction, 
+                        multiplication, division, exponents, and pi. It also 
+                        follow the format of bedmas.
+                    </p>
+
+                    <p>Programming Languages Used: <br>
+                        - HTML<br>
+                        - CSS<br>
+                        - JavaScript</p>
+                </div>
+                <div class="project-right" id="calc-right">
+                    <img src="images/project/calc.PNG" alt="calculator-image" class="calc-image">
+                </div>
+
+            </div>
+
+        </div>
+        <!-- <div class="projects fourth"></div> -->
+        <div class="radio-container">
+            <label class="container">
+            <input type="radio" checked="checked" name="radio" onclick="optionOne()">
+            <span class="checkmark"></span>
+            </label>
+            <label class="container">
+            <input type="radio" name="radio" onclick="optionTwo()">
+            <span class="checkmark"></span>
+            </label>
+            <label class="container">
+            <input type="radio" name="radio" onclick="optionThree()">
+            <span class="checkmark"></span>
+            </label>
+            <!-- <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+            </label> -->
+        </div>
+    </Section>
+
+    <Section class="contact-container">
+
+        <h1>Contact</h1><br><br>
+
+        <div class="inner-contact-container">
+        <div class="contact-left">
+
+            <div class="phone-container round">
+
+                <h2>Phone</h2>
+
+                <div class="information">
+                    <img src="images/contact/phone.svg" alt="phone icon">
+                    <p>416-818-6960</p>
+                </div>
+
+            </div>
+            <br><br><br>
+
+            <div class="personal-email-container round">
+
+                <h2>Email</h2>
+                
+                <div class="information">
+                    <img src="images/contact/email.svg" alt="email icon">
+                    <p>Tylerruffolo12@gmail.com</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="contact-right">
+
+            <div class="name-container round">
+                <input type="text" class="first-name-text" name="first-name" placeholder="First Name">
+                <input type="text" class="last-name-text" name="Last-name" placeholder="Last Name">
+            </div>
+            <div class="email-container round">
+                <input type="text" class="email-text" name="Email" placeholder="Email">
+
+            </div>
+            <div class="subject-container round">
+                <input type="text" class="subject-text" name="Subject" placeholder="Subject">
+
+            </div>
+            <div class="message-container round">
+                <!-- <input type="text-area" class="message-text" name="Message" placeholder="Message &#10;"> -->
+                <textarea name="message-text" id="message-text" class="message-text" cols="30" rows="10" placeholder="Message"></textarea>
+
+                <!-- <div contenteditable="true" class="message-text"></div> -->
+            </div>
+
+
+        </div>
+
+        </div>
+    </Section>
+
+</body>
+</html>

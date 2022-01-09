@@ -1,0 +1,13 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<title>favion</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ff0000;stroke-width: 1.02 } 
+		.txt1 { font-size: 24px;fill: #ff0000;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<path id="Background" class="shp0" d="M29.19 22.94L16.45 30.38L3.64 23.07L3.56 8.32L16.3 0.88L29.11 8.19L29.19 22.94Z" />
+	<text id="T" style="transform: matrix(1,0,0,1,-0.437,5.88)" >
+		<tspan x="9.35" y="18.234" class="txt1">T
+</tspan>
+	</text>
+</svg>
