@@ -338,11 +338,25 @@ p{
 }
 
 
-.phone-container, .personal-email-container{
-    height: 200px;
+.phone-container, .personal-email-container, .other-contacts-container{
+    height: fit-content;
     width: 80%;
     background-color: #323954;
 }
+
+/* .other-contacts-container>.information{
+    display: block;
+    padding-bottom: 5px;
+} */
+
+.information a{
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
 
 .round{
     border-radius: 25px;
@@ -424,7 +438,13 @@ textarea{
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
-
+.submit-container input{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 100;
+}
 
 /* Mobile/Smaller Devices */
 
@@ -445,6 +465,10 @@ textarea{
     }
 
     .personal-email-container{
+        width: 100%;
+    }
+
+    .other-contacts-container{
         width: 100%;
     }
 }

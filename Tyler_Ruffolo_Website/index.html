@@ -232,18 +232,30 @@
                 </div>
 
             </div>
-            <br><br><br>
+            <!-- <br><br><br> -->
 
             <div class="personal-email-container round">
-
                 <h2>Email</h2>
-                
                 <div class="information">
                     <img src="images/contact/email.svg" alt="email icon">
                     <p>Tylerruffolo12@gmail.com</p>
                 </div>
+            </div>
 
+            <div class="other-contacts-container round">
+                <h2>Other</h2>
 
+                    <div class="information">
+                        <img src="images/contact/linkedin.svg" alt="linkedin icon">
+                        <a href="https://www.linkedin.com/in/tyler-ruffolo-bb8613198/">LinkedIn</a>
+                    </div>
+                    <br>
+
+                    <div class="information">
+                        <img src="images/contact/github.svg" alt="github icon">
+                        <a href="https://github.com/TylerR12">GitHub</a>
+                    </div>
+                    <br>
             </div>
 
 
@@ -251,14 +263,15 @@
 
         <div class="contact-right">
 
+            <form action="mailto:tylerruffolo12@gmail.com" method="post" enctype="text/plain">
             <div class="name-container round">
                 <input type="text" class="first-name-text" name="first-name" placeholder="First Name">
                 <input type="text" class="last-name-text" name="Last-name" placeholder="Last Name">
             </div>
             <div class="email-container round">
                 <input type="text" class="email-text" name="Email" placeholder="Email">
-
             </div>
+
             <div class="subject-container round">
                 <input type="text" class="subject-text" name="Subject" placeholder="Subject">
 
@@ -268,7 +281,12 @@
                 <textarea name="message-text" id="message-text" class="message-text" cols="30" rows="10" placeholder="Message"></textarea>
 
                 <!-- <div contenteditable="true" class="message-text"></div> -->
+
+            <div class="submit-container round">
+                <input type="submit" name="submit" value="Submit">
             </div>
+            </div>
+        </form>
 
 
         </div>
