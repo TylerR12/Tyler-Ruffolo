@@ -633,3 +633,11 @@ textarea{
 .home-container{
     width: 100%;
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .skills-container{
+        display: block;
+    }
+}
