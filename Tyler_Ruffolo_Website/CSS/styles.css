@@ -542,7 +542,7 @@ textarea{
 
 /* 500px */
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 590px) {
     .contact-left p{
         padding-left: 0;
         font-size: 18px;
