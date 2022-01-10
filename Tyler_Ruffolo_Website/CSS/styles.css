@@ -148,6 +148,7 @@ p{
 .outer-bar{
     display: flex;
     align-items: center;
+    margin-right: 0;
     padding-left: 3px;
     height: 25px;
     width: 80%;
@@ -635,6 +636,9 @@ textarea{
     width: 100%;
 }
 
+.outer-bar{
+    width: 100%;
+}
 
 @media screen and (max-width: 800px) {
 
