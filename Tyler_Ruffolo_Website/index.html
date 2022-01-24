@@ -276,6 +276,7 @@ emailjs.init("user_vuuPY1YAFfgixGjn6Cwcf");
                 <input type="text" class="last-name-text" name="Last-name" placeholder="Last Name" id="last_name">
             </div>
             <div class="email-container round">
+                <!-- <input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required /> -->
                 <input type="text" class="email-text" name="Email" placeholder="Email" id="user_email">
             </div>
 
@@ -301,10 +302,13 @@ emailjs.init("user_vuuPY1YAFfgixGjn6Cwcf");
         </div>
     </Section>
 
-    <div class="success">
+    <div class="success" id="success">
         <img src="images/contact/checkmark.svg" alt="checkmark" class="checkmark" id="checkmark">
-        <br>
         <h1>Success</h1>
+        <p>Thank you for your submission. I will get back to you when I can.</p>
+        <div class="btn-container">
+        <button onclick="close_pop()" class="okay-btn">OKAY</button>
+        </div>
     </div>
 
 </body>
