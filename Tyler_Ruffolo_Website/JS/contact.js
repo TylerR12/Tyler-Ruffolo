@@ -1,3 +1,4 @@
+//Send Email
 function sendEmail(params){
     var tempParams = {
         from_name: document.getElementById("first_name").value,
