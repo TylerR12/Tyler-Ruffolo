@@ -19,6 +19,8 @@ function reset(){
     var success = document.getElementById("success");
     // success.style.display = "block";
     document.getElementById("first_name").value = "";
+    document.getElementById("last_name").value = "";
+    document.getElementById("subject").value = "";
     document.getElementById("user_email").value = "";
     document.getElementById("message-text").value = "";
 }
