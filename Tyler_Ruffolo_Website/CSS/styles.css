@@ -539,6 +539,30 @@ textarea{
 
 }
 
+.success{
+    position: fixed;
+    background: #495792;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+    width: 800px;
+    display: none;
+}
+
+.success img{
+    padding-top: 45px;
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.success h1{
+    text-align: center;
+}
+
+
 
 
 

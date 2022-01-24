@@ -11,5 +11,14 @@ function sendEmail(params){
     emailjs.send('service_9hwpqnb','template_56k20ss',tempParams)
     .then(function(res){
         console.log("success", res.status);
+        reset();
     })
+}
+
+function reset(){
+    var success = document.getElementById("success");
+    // success.style.display = "block";
+    document.getElementById("first_name").value = "";
+    document.getElementById("user_email").value = "";
+    document.getElementById("message-text").value = "";
 }
