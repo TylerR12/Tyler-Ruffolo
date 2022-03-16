@@ -204,7 +204,7 @@ p{
 
 .container {
     position: relative;
-    padding-left: 25px;
+    padding-left: 15px;
     margin-bottom: 12px;
     /* margin: 0 auto; */
     cursor: pointer;
@@ -215,22 +215,49 @@ p{
     user-select: none;
   }
 
-  .container input{
+.container input{
+    /* position: absolute; */
+    opacity: 0;
     cursor: pointer;
   }
 
-  /* .checkmark{
-    height: 50px;
-    width: 50px;
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
     background-color: #323954;
-  } */
-/*
-  .container .checkmark:after {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: white;
-} */
+    border-radius: 50%;
+  }
+
+.container:hover input ~ .checkmark {
+    background-color: #9098b9;
+    /* background-color: rgb(187, 187, 187); */
+  }
+
+.container input:checked ~ .checkmark {
+    background-color: #323954;
+  }
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+.checkmark::after{
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+.container .checkmark:after {
+    top: 2px;
+   left: 2px;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   background: #eee;/*center*/
+}
 
 
 #two{
@@ -593,6 +620,15 @@ textarea{
 @media screen and (max-width: 1300px) {
     .project-flex{
         display: block;
+    }
+
+    .projects{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .projects p{
+        text-align: center;
     }
 
     #calc-right{
