@@ -494,7 +494,7 @@ textarea{
     padding-top: 35px;
     border-radius: 25px;
     z-index: 5;
-    /* display: block; */
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
