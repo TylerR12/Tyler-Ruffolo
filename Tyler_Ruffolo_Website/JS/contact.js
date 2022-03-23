@@ -18,6 +18,7 @@ function sendEmail(params){
 function reset(){
     var success = document.getElementById("success");
     success.style.display = "block";
+    document.getElementById("overlay").style.display = "block";
     document.getElementById("first_name").value = "";
     document.getElementById("last_name").value = "";
     document.getElementById("subject").value = "";
@@ -26,5 +27,7 @@ function reset(){
 }
 
 function close_pop(){
-    var success = document.getElementById("success").style.display = "none";
+    document.getElementById("success").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+
 }

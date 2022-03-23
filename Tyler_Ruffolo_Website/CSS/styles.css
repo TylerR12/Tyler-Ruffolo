@@ -491,17 +491,33 @@ textarea{
     transform: translate(-50%,-50%);
     height: 400px;
     width: 900px;
+    padding-top: 35px;
     border-radius: 25px;
     z-index: 5;
-    display: none;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.success img{
+/* .success img{
     padding-top: 35px;
     height: 75px;
     width: auto;
     display: block;
-    margin: 0 auto;
+    margin: auto 0;
+} */
+
+.success-img{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.success-img img{
+    height: 75px;
+    width: auto;
 }
 
 .success h1{
@@ -532,6 +548,17 @@ textarea{
 
 .okay-btn:hover{
     background-color: rgba(86, 97, 142,0.5);  
+}
+
+.overlay{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    display: none;
 }
 
 
