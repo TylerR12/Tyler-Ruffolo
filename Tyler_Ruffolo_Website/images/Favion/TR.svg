@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="601" height="600" viewBox="0 0 601 600">
+  <defs>
+    <clipPath id="clip-path">
+      <rect y="23" width="601" height="600" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="TR" transform="translate(0 -23)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="Rectangle_28" data-name="Rectangle 28" transform="translate(7 28)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="588" height="588" rx="107" stroke="none"/>
+      <rect x="0.5" y="0.5" width="587" height="587" rx="106.5" fill="none"/>
+    </g>
+    <text id="T" transform="translate(0 479)" font-size="500" font-family="LucidaHandwriting-Italic, Lucida Handwriting" font-style="italic"><tspan x="0" y="0">T</tspan></text>
+    <text id="R" transform="translate(136 534)" font-size="500" font-family="LucidaHandwriting-Italic, Lucida Handwriting" font-style="italic"><tspan x="0" y="0">R</tspan></text>
+  </g>
+</svg>
