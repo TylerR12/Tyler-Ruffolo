@@ -840,6 +840,11 @@ textarea{
 
 @media screen and (max-width: 800px) {
 
+    .left{
+        padding-left: 0;
+        text-align: center;
+    }
+
     .skills-container{
         display: block;
     }
