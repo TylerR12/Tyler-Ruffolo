@@ -69,30 +69,30 @@ function myFunction3(){
     //var currentTime = new Date().getHours();
     var d = new Date();
     var currentTime = d.getHours();
-    console.log(currentTime);
+    // console.log(currentTime);
 
     if (currentTime >= 7 && currentTime < 12) { //day
         dom.style.background = 'linear-gradient(' + topcolorDay + ',' + bottomcolorDay + ')';
-        console.log("day");
+        // console.log("day");
         domMoon.style.opacity = '15%';
         domStar.style.opacity = '25%';
     }
     else if (currentTime >= 12 && currentTime < 15) { //noon
         dom.style.background = 'linear-gradient(' + topcolorNoon + ',' + bottomcolorNoon + ')';
-        console.log("noon");
+        // console.log("noon");
         domMoon.style.opacity = '0%';
         domStar.style.opacity = '0%';
 
     }
     else if (currentTime >= 15 && currentTime < 20) { //afternoon
         dom.style.background = 'linear-gradient(' + topcolorAfterNoon + ',' + bottomcolorAfterNoon + ')';
-        console.log("afternoon");
+        // console.log("afternoon");
         domMoon.style.opacity = '40%';
         domStar.style.opacity = '40%';
     }
     else{ //night
         dom.style.background = 'linear-gradient(' + topcolorNight + ',' + bottomcolorNight + ')';
-        console.log("night");
+        // console.log("night");
         domMoon.style.opacity = '100%';
         domStar.style.opacity = '100%';
     }
