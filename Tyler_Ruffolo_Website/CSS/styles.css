@@ -164,6 +164,7 @@ header button:hover{
     display: flex;
     flex: 0.3;
     justify-content: right;
+    align-items:flex-end;
 }
 
 .right img{
@@ -700,6 +701,19 @@ textarea{
         display: flex;
     }
 
+    .right{
+        padding-right: 0;
+    }
+
+    .left{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header{
+        padding-left: 30px;
+    }
+
 
 }
 
@@ -746,6 +760,7 @@ textarea{
     .right img{
         justify-content: center;
         width: 90%;
+        max-width: 450px;
         height: auto;
     }
 
@@ -902,12 +917,23 @@ textarea{
 
     .left{
         padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .header{
+        padding-left: 0;
         text-align: center;
     }
 
     .skills-container{
         display: block;
     }
+
+    .contact-container h1{
+        padding-left: 0;
+        text-align: center;
+    }
+
 }
 
 
